@@ -1,0 +1,23 @@
+{
+	"landingPage": "/wp-admin/admin.php?page=activity-log-page",
+	"features": {
+		"networking": true
+	},
+	"steps": [
+		{
+			"step": "installPlugin",
+			"pluginZipFile": {
+				"resource": "wordpress.org/plugins",
+				"slug": "aryo-activity-log"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
+			"step": "login",
+			"username": "admin",
+			"password": "password"
+		}
+	]
+}
